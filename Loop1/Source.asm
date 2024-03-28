@@ -14,7 +14,7 @@ LABEL1:
 	mov savedECX, ECX
 	;push ECX
 	mov ECX,10
-	LABEL2:
+	LABEL2:		  
 	  call WriteInt
 	  inc eax
     LOOP LABEL2
